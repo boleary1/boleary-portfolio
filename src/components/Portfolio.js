@@ -119,7 +119,7 @@ export default function AboutGrid() {
                 <Grid container className={classes.blackProject} spacing={3}>
                     <Grid xs={0} sm={1} ></Grid>
                     <Grid className={classes.text} xs={12} sm={5} >
-                        <h2 className={classes.paperSecond}>BrewerFitness</h2>
+                        <h2 className={classes.paperSecond}>Brewer Fitness</h2>
                         <hr className={classes.whiteLine}></hr>
                         <p className={classes.paperSecond}>I'm responsible for managing and updating the website. In addition to managing the online store.
 

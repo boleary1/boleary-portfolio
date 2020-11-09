@@ -24,6 +24,12 @@ const useStyles = makeStyles((theme) => ({
         // backgroundColor: 'Red'
 
     },
+    bulletList: {
+        padding: theme.spacing(2),
+        textAlign: 'left',
+        color: "White",
+        marginLeft: 30,
+    },
     sectionHeader: {
         padding: theme.spacing(2),
         textAlign: 'center',
@@ -88,12 +94,12 @@ export default function AboutGrid() {
                     <Grid item xs={6}>
                         <h4 className={classes.smColumn}>Personal</h4>
                         <hr className={classes.whiteLine}></hr>
-                        <ul>
-                            <li>-Item</li>
-                            <li>-Item</li>
-                            <li>-Item</li>
-                            <li>-Item</li>
-                            <li>-Item</li>
+                        <ul className={classes.bulletList}>
+                            <li>Item</li>
+                            <li>Item</li>
+                            <li>Item</li>
+                            <li>Item</li>
+                            <li>Item</li>
 
                         </ul>
 
@@ -101,7 +107,14 @@ export default function AboutGrid() {
                     <Grid item xs={6}>
                         <h4 className={classes.smColumn}>Technical</h4>
                         <hr className={classes.whiteLine}></hr>
+                        <ul className={classes.bulletList}>
+                            <li>Item</li>
+                            <li>Item</li>
+                            <li>Item</li>
+                            <li>Item</li>
+                            <li>Item</li>
 
+                        </ul>
                     </Grid>
                 </Grid>
 

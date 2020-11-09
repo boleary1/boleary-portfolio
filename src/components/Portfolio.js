@@ -108,7 +108,7 @@ export default function AboutGrid() {
                     <Grid className={classes.text} xs={12} sm={5} >
                         <h2 className={classes.paperSecond}>Rockstar Volumes</h2>
                         <hr className={classes.whiteLine}></hr>
-                        <p className={classes.paperSecond}>Brian is a Full Stack developor in training he is in the process of completing a coding bootcamp through the University of New Hampshire and Trilogy education.  He is coming from a mechanical engineering background where he worked to develop and improve high end fitness equipment.  </p>
+                        <p className={classes.paperSecond}>Built and manage online website and store for rockstar volumes using wix.  </p>
                         <a className={classes.paperSecond} href="https://www.rockstarvolumes.com">View Website</a>
 
                     </Grid>
@@ -119,15 +119,18 @@ export default function AboutGrid() {
                 <Grid container className={classes.blackProject} spacing={3}>
                     <Grid xs={0} sm={1} ></Grid>
                     <Grid className={classes.text} xs={12} sm={5} >
-                        <h2 className={classes.paperSecond}>Rockstar Volumes</h2>
+                        <h2 className={classes.paperSecond}>BrewerFitness</h2>
                         <hr className={classes.whiteLine}></hr>
-                        <p className={classes.paperSecond}>Brian is a Full Stack developor in training he is in the process of completing a coding bootcamp through the University of New Hampshire and Trilogy education.  He is coming from a mechanical engineering background where he worked to develop and improve high end fitness equipment.  </p>
-                        <a className={classes.paperSecond} href="https://www.rockstarvolumes.com">View Website</a>
+                        <p className={classes.paperSecond}>I'm responsible for managing and updating the website. In addition to managing the online store.
+
+skills used:
+-Wordpress, WooCommerece  </p>
+                        <a className={classes.paperSecond} href="https://brewerfitness.com/">View Website</a>
 
                     </Grid>
                     <Grid xs={12} sm={5} >
                         <Image className={classes.root}
-                            src="/Assets/barney.jpg"
+                            src="/Assets/brewerfitness2.jpg"
                         />
                     </Grid>
                     

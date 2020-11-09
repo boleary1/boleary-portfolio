@@ -10,12 +10,13 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import { FullscreenExit } from '@material-ui/icons';
+import rockstarImage from '../Assets/rockstar.jpg';
+
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
-
         backgroundColor: 'Black'
     },
     paper: {
@@ -101,7 +102,7 @@ export default function AboutGrid() {
                     <Grid xs={0} sm={1} ></Grid>
                     <Grid xs={12} sm={5} >
                         <Image className={classes.root}
-                            src="/Assets/rockstar.jpg"
+                            src= {rockstarImage}
                         // src="https://lh3.googleusercontent.com/pw/ACtC-3eRmHBHA45H5Eadss1wScnugcOIUQHuPyvK8FIPiAZBTueAaYhlozsTSKthMCjbxnlaGp3Q88y_ax9gl2F7QcQPSGnnpOumQ62HBC6HNHc_bCHW0p5LOwxetQzaWIoRQHwnEqBEEnQdTp2Yed2FiLneqQ=w503-h504-no?authuser=0"
                         />
                     </Grid>
@@ -131,7 +132,7 @@ export default function AboutGrid() {
                     </Grid>
                     <Grid xs={12} sm={5} >
                         <Image className={classes.root}
-                            src="/Assets/brewerfitness2.jpg"
+                            src='src/Assets/brewerfitness2.jpg'
                         />
                     </Grid>
 

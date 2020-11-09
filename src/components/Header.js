@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
         // backgroundColor: 'Red'
 
     },
+
     headshot: {
         padding: theme.spacing(2),
         textAlign: 'center',
@@ -45,6 +46,11 @@ const useStyles = makeStyles((theme) => ({
         height: 5,
         margin: 24,
     },
+    rightColumn: {
+        direction: "column",
+        justify: "center",
+        alignItems: "center",
+    },
 
 }));
 
@@ -54,15 +60,16 @@ export default function HeaderGrid() {
 
     return (
         <div className={classes.root}>
-            <Grid container >
+            <Grid id="top" container >
 
-                <Grid item xs={12} sm={6}>
+                <Grid item xs={12} sm={5}>
                     <Image
                         src="/Assets/IMG_0442.png"
                     // src="https://lh3.googleusercontent.com/pw/ACtC-3eRmHBHA45H5Eadss1wScnugcOIUQHuPyvK8FIPiAZBTueAaYhlozsTSKthMCjbxnlaGp3Q88y_ax9gl2F7QcQPSGnnpOumQ62HBC6HNHc_bCHW0p5LOwxetQzaWIoRQHwnEqBEEnQdTp2Yed2FiLneqQ=w503-h504-no?authuser=0"
                     />
                 </Grid>
-                <Grid item xs={12} sm={6}>
+                
+                <Grid container className={classes.rightColumn} item xs={12} sm={7}>
                     <Grid item xs={12}>
                         <h1 className={classes.title}>Full Stack Web Developer</h1>
                         <hr className={classes.whiteLine}></hr>

@@ -7,6 +7,8 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import IconButton from '@material-ui/core/IconButton';
 import AttachFileIcon from '@material-ui/icons/AttachFile';
+import headshotImage from '../Assets/headshot.jpg';
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -64,7 +66,7 @@ export default function HeaderGrid() {
 
                 <Grid item xs={12} sm={5}>
                     <Image
-                        src="/Assets/IMG_0442.png"
+                        src={headshotImage}
                     // src="https://lh3.googleusercontent.com/pw/ACtC-3eRmHBHA45H5Eadss1wScnugcOIUQHuPyvK8FIPiAZBTueAaYhlozsTSKthMCjbxnlaGp3Q88y_ax9gl2F7QcQPSGnnpOumQ62HBC6HNHc_bCHW0p5LOwxetQzaWIoRQHwnEqBEEnQdTp2Yed2FiLneqQ=w503-h504-no?authuser=0"
                     />
                 </Grid>

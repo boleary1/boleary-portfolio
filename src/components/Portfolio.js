@@ -123,8 +123,9 @@ export default function AboutGrid() {
                         <hr className={classes.whiteLine}></hr>
                         <p className={classes.paperSecond}>I'm responsible for managing and updating the website. In addition to managing the online store.
 
-skills used:
--Wordpress, WooCommerece  </p>
+                        skills used:
+                        -Wordpress, WooCommerece
+</p>
                         <a className={classes.paperSecond} href="https://brewerfitness.com/">View Website</a>
 
                     </Grid>
@@ -133,7 +134,7 @@ skills used:
                             src="/Assets/brewerfitness2.jpg"
                         />
                     </Grid>
-                    
+
                     <Grid xs={0} sm={1} ></Grid>
 
 

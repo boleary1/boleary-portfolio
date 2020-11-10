@@ -11,6 +11,9 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import rockstarImage from '../Assets/rockstar.jpg';
+import barneyImage from '../Assets/barney.jpg';
+import brewerImage from '../Assets/brewerfitness2.jpg';
+
 
 
 
@@ -18,6 +21,10 @@ const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
         backgroundColor: 'Black'
+    },
+    image: {
+        flexGrow: 1,
+        backgroundColor: 'Black',
     },
     paper: {
         padding: theme.spacing(2),
@@ -72,14 +79,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: 'Black',
         padding: 10,
     },
-    card: {
-        maxHeight: 300,
-        display: "flex",
-    },
-    media: {
-        display: "flex",
-        margin: 10,
-    },
+
 
 }));
 
@@ -101,7 +101,7 @@ export default function AboutGrid() {
                 <Grid container className={classes.blackProject} spacing={3}>
                     <Grid xs={0} sm={1} ></Grid>
                     <Grid xs={12} sm={5} >
-                        <Image className={classes.root}
+                        <Image className={classes.image}
                             src= {rockstarImage}
                         // src="https://lh3.googleusercontent.com/pw/ACtC-3eRmHBHA45H5Eadss1wScnugcOIUQHuPyvK8FIPiAZBTueAaYhlozsTSKthMCjbxnlaGp3Q88y_ax9gl2F7QcQPSGnnpOumQ62HBC6HNHc_bCHW0p5LOwxetQzaWIoRQHwnEqBEEnQdTp2Yed2FiLneqQ=w503-h504-no?authuser=0"
                         />
@@ -132,7 +132,7 @@ export default function AboutGrid() {
                     </Grid>
                     <Grid xs={12} sm={5} >
                         <Image className={classes.root}
-                            src='src/Assets/brewerfitness2.jpg'
+                            src={brewerImage}
                         />
                     </Grid>
 

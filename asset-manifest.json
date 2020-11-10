@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/boleary-portfolio/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/boleary-portfolio/static/js/main.1953610d.chunk.js",
+    "main.js.map": "/boleary-portfolio/static/js/main.1953610d.chunk.js.map",
+    "runtime-main.js": "/boleary-portfolio/static/js/runtime-main.534f6653.js",
+    "runtime-main.js.map": "/boleary-portfolio/static/js/runtime-main.534f6653.js.map",
+    "static/js/2.b564650a.chunk.js": "/boleary-portfolio/static/js/2.b564650a.chunk.js",
+    "static/js/2.b564650a.chunk.js.map": "/boleary-portfolio/static/js/2.b564650a.chunk.js.map",
+    "static/js/3.67bc6011.chunk.js": "/boleary-portfolio/static/js/3.67bc6011.chunk.js",
+    "static/js/3.67bc6011.chunk.js.map": "/boleary-portfolio/static/js/3.67bc6011.chunk.js.map",
+    "index.html": "/boleary-portfolio/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/boleary-portfolio/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.b564650a.chunk.js.LICENSE.txt": "/boleary-portfolio/static/js/2.b564650a.chunk.js.LICENSE.txt",
+    "static/media/rockstar.6bb90509.jpg": "/boleary-portfolio/static/media/rockstar.6bb90509.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.534f6653.js",
+    "static/js/2.b564650a.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.1953610d.chunk.js"
+  ]
+}

@@ -11,11 +11,9 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import rockstarImage from '../Assets/rockstar.jpg';
-import barneyImage from '../Assets/barney.jpg';
+import weatherImage from '../Assets/weather.JPG';
 import brewerImage from '../Assets/brewerfitness2.jpg';
 import WorkoutImage from '../Assets/ScreenshotFullscreen.png';
-import { red } from '@material-ui/core/colors';
-
 
 
 const useStyles = makeStyles((theme) => ({
@@ -81,7 +79,9 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: 'Black',
         marginTop: 15,
         // [theme.breakpoints.down("sm")]: { flexDirection: "row-reverse" },
+        // [theme.breakpoints.down("sm")]: { direction: "column-reverse" },
         // flexDirection: "row-reverse"
+        
     },
 
     text: {
@@ -125,6 +125,74 @@ export default function AboutGrid() {
                 <Grid container className={classes.blackProject} spacing={3}>
                     <Grid xs={0} sm={1} ></Grid>
                     <Grid xs={12} sm={5} >
+                        <Image className={classes.root}
+                            src={WorkoutImage}
+                        />
+                    </Grid>
+                    <Grid className={classes.text} xs={12} sm={5} >
+                        <h2 className={classes.paperSecond}>We Workout</h2>
+                        <hr className={classes.whiteLine}></hr>
+                        <p className={classes.paperSecond}>An app that helps to decide what type of workout to do.</p>
+
+                        <h4 className={classes.listHeader}> skills used:</h4>
+                        <ul className={classes.list}>
+                            <li>-Node</li>
+                            <li>-passport.js</li>
+
+                            <li>-Heroku</li>
+                            <li>-HTML</li>
+                            <li>-CSS</li>
+                            <li>-Java Script</li>
+                        </ul>
+
+
+                        <a className={classes.paperSecond} href="https://weworkoutapp.herokuapp.com/">View Website</a>
+                        <a className={classes.paperSecond} href="https://github.com/achampigny4/we-workout">View Source Code</a>
+
+
+                    </Grid>
+
+
+                    <Grid xs={0} sm={1} ></Grid>
+
+
+                </Grid>
+                <Grid container className={classes.greyProject} spacing={3}>
+                    <Grid xs={0} sm={1} ></Grid>
+
+                    <Grid className={classes.text} xs={12} sm={5} >
+                        <h2 className={classes.paperSecond}>Weather app</h2>
+                        <hr className={classes.whiteLine}></hr>
+                        <p className={classes.paperSecond}>A weather dashboard that makes external API calls to find weather via a zip code. The recent searches are saved in local storage.</p>
+
+                        <h4 className={classes.listHeader}> skills used:</h4>
+                        <ul className={classes.list}>
+                            <li>-API Calls</li>
+                            <li>-HTML</li>
+                            <li>-CSS</li>
+                            <li>-Java Script</li>
+                        </ul>
+
+
+                        <a className={classes.paperSecond} href="https://boleary1.github.io/Homework-6-server-side_APIs/">View Website</a>
+                        <a className={classes.paperSecond} href="https://github.com/boleary1/Homework-6-server-side_APIs">View Source Code</a>
+
+
+                    </Grid>
+                    <Grid xs={12} sm={5} >
+                        <Image className={classes.root}
+                            src={weatherImage}
+                        />
+                    </Grid>
+
+                    <Grid xs={0} sm={1} ></Grid>
+
+
+                </Grid>
+                
+                <Grid container className={classes.blackProject} spacing={3}>
+                    <Grid xs={0} sm={1} ></Grid>
+                    <Grid xs={12} sm={5} >
                         <Image className={classes.image}
                             src={rockstarImage}
                         // src="https://lh3.googleusercontent.com/pw/ACtC-3eRmHBHA45H5Eadss1wScnugcOIUQHuPyvK8FIPiAZBTueAaYhlozsTSKthMCjbxnlaGp3Q88y_ax9gl2F7QcQPSGnnpOumQ62HBC6HNHc_bCHW0p5LOwxetQzaWIoRQHwnEqBEEnQdTp2Yed2FiLneqQ=w503-h504-no?authuser=0"
@@ -159,39 +227,6 @@ export default function AboutGrid() {
                             src={brewerImage}
                         />
                     </Grid>
-
-                    <Grid xs={0} sm={1} ></Grid>
-
-
-                </Grid>
-                <Grid container className={classes.blackProject} spacing={3}>
-                    <Grid xs={0} sm={1} ></Grid>
-                    <Grid xs={12} sm={5} >
-                        <Image className={classes.root}
-                            src={WorkoutImage}
-                        />
-                    </Grid>
-                    <Grid className={classes.text} xs={12} sm={5} >
-                        <h2 className={classes.paperSecond}>Workout Planner</h2>
-                        <hr className={classes.whiteLine}></hr>
-                        <p className={classes.paperSecond}>An app that helps to decide what type of workout to do.</p>
-
-                        <h4 className={classes.listHeader}> skills used:</h4>
-                        <ul className={classes.list}>
-                            <li>-Node</li>
-                            <li>-Heroku</li>
-                            <li>-HTML</li>
-                            <li>-CSS</li>
-                            <li>-Java Script</li>
-                        </ul>
-
-
-                        <a className={classes.paperSecond} href="https://brewerfitness.com/">View Website</a>
-                        <a className={classes.paperSecond} href="https://brewerfitness.com/">View Source Code</a>
-
-
-                    </Grid>
-
 
                     <Grid xs={0} sm={1} ></Grid>
 

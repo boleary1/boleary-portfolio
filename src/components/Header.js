@@ -7,7 +7,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import IconButton from '@material-ui/core/IconButton';
 import AttachFileIcon from '@material-ui/icons/AttachFile';
-import headshotImage from '../Assets/headshot.jpg';
+import headshotImage from '../Assets/headshot.JPG';
 
 
 const useStyles = makeStyles((theme) => ({

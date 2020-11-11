@@ -13,7 +13,8 @@ import CardMedia from '@material-ui/core/CardMedia';
 import rockstarImage from '../Assets/rockstar.jpg';
 import barneyImage from '../Assets/barney.jpg';
 import brewerImage from '../Assets/brewerfitness2.jpg';
-
+import WorkoutImage from '../Assets/ScreenshotFullscreen.png';
+import { red } from '@material-ui/core/colors';
 
 
 
@@ -25,6 +26,7 @@ const useStyles = makeStyles((theme) => ({
     image: {
         flexGrow: 1,
         backgroundColor: 'Black',
+        height: 'auto',
     },
     paper: {
         padding: theme.spacing(2),
@@ -69,8 +71,17 @@ const useStyles = makeStyles((theme) => ({
     blackProject: {
         textAlign: 'center',
         color: "white",
-        backgroundColor: 'Black'
+        backgroundColor: 'Black',
+        marginTop: 15,
 
+    },
+    greyProject: {
+        textAlign: 'center',
+        color: "white",
+        backgroundColor: 'Black',
+        marginTop: 15,
+        // [theme.breakpoints.down("sm")]: { flexDirection: "row-reverse" },
+        // flexDirection: "row-reverse"
     },
 
     text: {
@@ -79,7 +90,20 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: 'Black',
         padding: 10,
     },
-
+    list: {
+        textAlign: 'left',
+        color: "white",
+        backgroundColor: 'Black',
+        listStyleType: 'none'
+    },
+    listHeader: {
+        textAlign: 'left',
+        marginLeft: 35,
+        color: "white",
+        backgroundColor: 'Black',
+        listStyleType: 'none',
+        textDecoration: 'underline',
+    },
 
 }));
 
@@ -102,7 +126,7 @@ export default function AboutGrid() {
                     <Grid xs={0} sm={1} ></Grid>
                     <Grid xs={12} sm={5} >
                         <Image className={classes.image}
-                            src= {rockstarImage}
+                            src={rockstarImage}
                         // src="https://lh3.googleusercontent.com/pw/ACtC-3eRmHBHA45H5Eadss1wScnugcOIUQHuPyvK8FIPiAZBTueAaYhlozsTSKthMCjbxnlaGp3Q88y_ax9gl2F7QcQPSGnnpOumQ62HBC6HNHc_bCHW0p5LOwxetQzaWIoRQHwnEqBEEnQdTp2Yed2FiLneqQ=w503-h504-no?authuser=0"
                         />
                     </Grid>
@@ -117,7 +141,7 @@ export default function AboutGrid() {
 
 
                 </Grid>
-                <Grid container className={classes.blackProject} spacing={3}>
+                <Grid container className={classes.greyProject} spacing={3}>
                     <Grid xs={0} sm={1} ></Grid>
                     <Grid className={classes.text} xs={12} sm={5} >
                         <h2 className={classes.paperSecond}>Brewer Fitness</h2>
@@ -135,6 +159,39 @@ export default function AboutGrid() {
                             src={brewerImage}
                         />
                     </Grid>
+
+                    <Grid xs={0} sm={1} ></Grid>
+
+
+                </Grid>
+                <Grid container className={classes.blackProject} spacing={3}>
+                    <Grid xs={0} sm={1} ></Grid>
+                    <Grid xs={12} sm={5} >
+                        <Image className={classes.root}
+                            src={WorkoutImage}
+                        />
+                    </Grid>
+                    <Grid className={classes.text} xs={12} sm={5} >
+                        <h2 className={classes.paperSecond}>Workout Planner</h2>
+                        <hr className={classes.whiteLine}></hr>
+                        <p className={classes.paperSecond}>An app that helps to decide what type of workout to do.</p>
+
+                        <h4 className={classes.listHeader}> skills used:</h4>
+                        <ul className={classes.list}>
+                            <li>-Node</li>
+                            <li>-Heroku</li>
+                            <li>-HTML</li>
+                            <li>-CSS</li>
+                            <li>-Java Script</li>
+                        </ul>
+
+
+                        <a className={classes.paperSecond} href="https://brewerfitness.com/">View Website</a>
+                        <a className={classes.paperSecond} href="https://brewerfitness.com/">View Source Code</a>
+
+
+                    </Grid>
+
 
                     <Grid xs={0} sm={1} ></Grid>
 

@@ -12,8 +12,8 @@ Last edit was 11/10/2020 by Brian O'leary to reflect new projects.  Contact olea
 
 ## **Screenshots:**
 #### Top half of page:
-  ![Top half of page](https://github.com/boleary1/portfolio/blob/master/Assets/images/screen%20shot%20new1.JPG?raw=true)
+  ![Top half of page](https://github.com/boleary1/boleary-portfolio/blob/main/screenshot-1.JPG?raw=true)
 
 #### Bottom half of page:
-  ![Top half of page](https://github.com/boleary1/portfolio/blob/master/Assets/images/screen%20shot%20new2.JPG?raw=true)
+  ![Top half of page](https://github.com/boleary1/boleary-portfolio/blob/main/screenshot-2.JPG?raw=true)
 

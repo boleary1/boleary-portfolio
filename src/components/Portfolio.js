@@ -13,7 +13,9 @@ import CardMedia from '@material-ui/core/CardMedia';
 import rockstarImage from '../Assets/rockstar.jpg';
 import weatherImage from '../Assets/weather.JPG';
 import brewerImage from '../Assets/brewerfitness2.jpg';
-import WorkoutImage from '../Assets/ScreenshotFullscreen.png';
+import workoutImage from '../Assets/ScreenshotFullscreen.png';
+import burgersImage from '../Assets/burgers.JPG';
+import highcardImage from '../Assets/highcard.jpg';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -81,7 +83,7 @@ const useStyles = makeStyles((theme) => ({
         // [theme.breakpoints.down("sm")]: { flexDirection: "row-reverse" },
         // [theme.breakpoints.down("sm")]: { direction: "column-reverse" },
         // flexDirection: "row-reverse"
-        
+
     },
 
     text: {
@@ -126,7 +128,7 @@ export default function AboutGrid() {
                     <Grid xs={0} sm={1} ></Grid>
                     <Grid xs={12} sm={5} >
                         <Image className={classes.root}
-                            src={WorkoutImage}
+                            src={workoutImage}
                         />
                     </Grid>
                     <Grid className={classes.text} xs={12} sm={5} >
@@ -189,13 +191,68 @@ export default function AboutGrid() {
 
 
                 </Grid>
-                
+
+                <Grid container className={classes.blackProject} spacing={3}>
+                    <Grid xs={0} sm={1} ></Grid>
+                    <Grid xs={12} sm={5} >
+                        <Image className={classes.image}
+                            src={burgersImage}
+                        />
+                    </Grid>
+                    <Grid className={classes.text} xs={12} sm={5} >
+                        <h2 className={classes.paperSecond}>Burger App</h2>
+                        <hr className={classes.whiteLine}></hr>
+                        <p className={classes.paperSecond}>In this project I created a burgers menu to order and delete from a database.  </p>
+
+
+                        <h4 className={classes.listHeader}> skills used:</h4>
+                        <ul className={classes.list}>
+                            <li>-database reading/ writing</li>
+                            <li>-HTML</li>
+                            <li>-CSS</li>
+                            <li>-Java Script</li>
+                        </ul>
+                        <a className={classes.paperSecond} href="https://burger--menu.herokuapp.com/">View Website</a>
+                        <a className={classes.paperSecond} href="https://github.com/boleary1/Burgers">View Source Code</a>
+                    </Grid>
+                    <Grid xs={0} sm={1} ></Grid>
+
+
+                </Grid>
+                <Grid container className={classes.greyProject} spacing={3}>
+                    <Grid xs={0} sm={1} ></Grid>
+                    <Grid className={classes.text} xs={12} sm={5} >
+                        <h2 className={classes.paperSecond}>High Card picks dinner</h2>
+                        <hr className={classes.whiteLine}></hr>
+                        <p className={classes.paperSecond}>An app to help solve the debate about what to have for dinner and saves recent choices with local storage.</p>
+
+                        <h4 className={classes.listHeader}> skills used:</h4>
+                        <ul className={classes.list}>
+                            <li>-HTML</li>
+                            <li>-CSS</li>
+                            <li>-Java Script</li>
+                        </ul>
+                        <a className={classes.paperSecond} href="https://tiffany-brand.github.io/high-card-picks-dinner/">View Website</a>
+                        <a className={classes.paperSecond} href="https://github.com/tiffany-brand/high-card-picks-dinner">View Source Code</a>
+
+
+                    </Grid>
+                    <Grid xs={12} sm={5} >
+                        <Image className={classes.root}
+                            src={highcardImage}
+                        />
+                    </Grid>
+
+                    <Grid xs={0} sm={1} ></Grid>
+
+
+                </Grid>
+
                 <Grid container className={classes.blackProject} spacing={3}>
                     <Grid xs={0} sm={1} ></Grid>
                     <Grid xs={12} sm={5} >
                         <Image className={classes.image}
                             src={rockstarImage}
-                        // src="https://lh3.googleusercontent.com/pw/ACtC-3eRmHBHA45H5Eadss1wScnugcOIUQHuPyvK8FIPiAZBTueAaYhlozsTSKthMCjbxnlaGp3Q88y_ax9gl2F7QcQPSGnnpOumQ62HBC6HNHc_bCHW0p5LOwxetQzaWIoRQHwnEqBEEnQdTp2Yed2FiLneqQ=w503-h504-no?authuser=0"
                         />
                     </Grid>
                     <Grid className={classes.text} xs={12} sm={5} >

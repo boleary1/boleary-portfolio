@@ -1,6 +1,6 @@
 
 ## Live website URL:
-[live website](https://boleary1.github.io/portfolio/)
+[live website](https://boleary1.github.io/boleary-portfolio/)
 </br>
 [GitHub Repository](https://github.com/boleary1/boleary-portfolio)
 

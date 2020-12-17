@@ -80,7 +80,7 @@ const useStyles = makeStyles((theme) => ({
         color: "white",
         backgroundColor: 'Black',
         marginTop: 15,
-        // [theme.breakpoints.down("sm")]: { flexDirection: "row-reverse" },
+        [theme.breakpoints.up("sm")]: { flexDirection: "row-reverse" },
         // [theme.breakpoints.down("sm")]: { direction: "column-reverse" },
         // flexDirection: "row-reverse"
 
@@ -162,6 +162,12 @@ export default function AboutGrid() {
                 <Grid container className={classes.greyProject} spacing={3}>
                     <Grid xs={0} sm={1} ></Grid>
 
+                    <Grid xs={12} sm={5} >
+                        <Image className={classes.root}
+                            src={weatherImage}
+                        />
+                    </Grid>
+
                     <Grid className={classes.text} xs={12} sm={5} >
                         <h2 className={classes.paperSecond}>Weather app</h2>
                         <hr className={classes.whiteLine}></hr>
@@ -181,11 +187,7 @@ export default function AboutGrid() {
 
 
                     </Grid>
-                    <Grid xs={12} sm={5} >
-                        <Image className={classes.root}
-                            src={weatherImage}
-                        />
-                    </Grid>
+
 
                     <Grid xs={0} sm={1} ></Grid>
 
@@ -221,6 +223,11 @@ export default function AboutGrid() {
                 </Grid>
                 <Grid container className={classes.greyProject} spacing={3}>
                     <Grid xs={0} sm={1} ></Grid>
+                    <Grid xs={12} sm={5} >
+                        <Image className={classes.root}
+                            src={highcardImage}
+                        />
+                    </Grid>
                     <Grid className={classes.text} xs={12} sm={5} >
                         <h2 className={classes.paperSecond}>High Card picks dinner</h2>
                         <hr className={classes.whiteLine}></hr>
@@ -237,11 +244,7 @@ export default function AboutGrid() {
 
 
                     </Grid>
-                    <Grid xs={12} sm={5} >
-                        <Image className={classes.root}
-                            src={highcardImage}
-                        />
-                    </Grid>
+
 
                     <Grid xs={0} sm={1} ></Grid>
 
@@ -268,6 +271,11 @@ export default function AboutGrid() {
                 </Grid>
                 <Grid container className={classes.greyProject} spacing={3}>
                     <Grid xs={0} sm={1} ></Grid>
+                    <Grid xs={12} sm={5} >
+                        <Image className={classes.root}
+                            src={brewerImage}
+                        />
+                    </Grid>
                     <Grid className={classes.text} xs={12} sm={5} >
                         <h2 className={classes.paperSecond}>Brewer Fitness</h2>
                         <hr className={classes.whiteLine}></hr>
@@ -279,11 +287,7 @@ export default function AboutGrid() {
                         <a className={classes.paperSecond} href="https://brewerfitness.com/">View Website</a>
 
                     </Grid>
-                    <Grid xs={12} sm={5} >
-                        <Image className={classes.root}
-                            src={brewerImage}
-                        />
-                    </Grid>
+
 
                     <Grid xs={0} sm={1} ></Grid>
 

@@ -21,7 +21,7 @@ import highcardImage from '../Assets/highcard.jpg';
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
-        backgroundColor: 'Black'
+        backgroundColor: 'Black',
     },
     image: {
         flexGrow: 1,
@@ -125,8 +125,8 @@ export default function AboutGrid() {
                 </Grid>
 
                 <Grid container className={classes.blackProject} spacing={3}>
-                    <Grid xs={0} sm={1} ></Grid>
-                    <Grid xs={12} sm={5} >
+                    <Grid xs={1} sm={1} ></Grid>
+                    <Grid xs={10} sm={5} >
                         <Image className={classes.root}
                             src={workoutImage}
                         />
@@ -160,9 +160,9 @@ export default function AboutGrid() {
 
                 </Grid>
                 <Grid container className={classes.greyProject} spacing={3}>
-                    <Grid xs={0} sm={1} ></Grid>
+                    <Grid xs={1} sm={1} ></Grid>
 
-                    <Grid xs={12} sm={5} >
+                    <Grid xs={10} sm={5} >
                         <Image className={classes.root}
                             src={weatherImage}
                         />
@@ -195,8 +195,8 @@ export default function AboutGrid() {
                 </Grid>
 
                 <Grid container className={classes.blackProject} spacing={3}>
-                    <Grid xs={0} sm={1} ></Grid>
-                    <Grid xs={12} sm={5} >
+                    <Grid xs={1} sm={1} ></Grid>
+                    <Grid xs={10} sm={5} >
                         <Image className={classes.image}
                             src={burgersImage}
                         />
@@ -222,8 +222,8 @@ export default function AboutGrid() {
 
                 </Grid>
                 <Grid container className={classes.greyProject} spacing={3}>
-                    <Grid xs={0} sm={1} ></Grid>
-                    <Grid xs={12} sm={5} >
+                    <Grid xs={1} sm={1} ></Grid>
+                    <Grid xs={10} sm={5} >
                         <Image className={classes.root}
                             src={highcardImage}
                         />
@@ -252,8 +252,8 @@ export default function AboutGrid() {
                 </Grid>
 
                 <Grid container className={classes.blackProject} spacing={3}>
-                    <Grid xs={0} sm={1} ></Grid>
-                    <Grid xs={12} sm={5} >
+                    <Grid xs={1} sm={1} ></Grid>
+                    <Grid xs={10} sm={5} >
                         <Image className={classes.image}
                             src={rockstarImage}
                         />
@@ -270,12 +270,13 @@ export default function AboutGrid() {
 
                 </Grid>
                 <Grid container className={classes.greyProject} spacing={3}>
-                    <Grid xs={0} sm={1} ></Grid>
-                    <Grid xs={12} sm={5} >
+                    <Grid xs={1} sm={1} ></Grid>
+                    <Grid xs={10} sm={5} >
                         <Image className={classes.root}
                             src={brewerImage}
                         />
                     </Grid>
+
                     <Grid className={classes.text} xs={12} sm={5} >
                         <h2 className={classes.paperSecond}>Brewer Fitness</h2>
                         <hr className={classes.whiteLine}></hr>

@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/boleary-portfolio/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/boleary-portfolio/static/js/main.0918ea82.chunk.js",
-    "main.js.map": "/boleary-portfolio/static/js/main.0918ea82.chunk.js.map",
-    "runtime-main.js": "/boleary-portfolio/static/js/runtime-main.534f6653.js",
-    "runtime-main.js.map": "/boleary-portfolio/static/js/runtime-main.534f6653.js.map",
-    "static/js/2.c37b7356.chunk.js": "/boleary-portfolio/static/js/2.c37b7356.chunk.js",
-    "static/js/2.c37b7356.chunk.js.map": "/boleary-portfolio/static/js/2.c37b7356.chunk.js.map",
-    "static/js/3.67bc6011.chunk.js": "/boleary-portfolio/static/js/3.67bc6011.chunk.js",
-    "static/js/3.67bc6011.chunk.js.map": "/boleary-portfolio/static/js/3.67bc6011.chunk.js.map",
-    "index.html": "/boleary-portfolio/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/boleary-portfolio/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.c37b7356.chunk.js.LICENSE.txt": "/boleary-portfolio/static/js/2.c37b7356.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/static/js/main.f7892d14.chunk.js",
+    "main.js.map": "/static/js/main.f7892d14.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4f3be5ad.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4f3be5ad.js.map",
+    "static/js/2.d1e947eb.chunk.js": "/static/js/2.d1e947eb.chunk.js",
+    "static/js/2.d1e947eb.chunk.js.map": "/static/js/2.d1e947eb.chunk.js.map",
+    "static/js/3.67bc6011.chunk.js": "/static/js/3.67bc6011.chunk.js",
+    "static/js/3.67bc6011.chunk.js.map": "/static/js/3.67bc6011.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.d1e947eb.chunk.js.LICENSE.txt": "/static/js/2.d1e947eb.chunk.js.LICENSE.txt",
+    "static/media/ScreenshotFullscreen.29272056.png": "/static/media/ScreenshotFullscreen.29272056.png",
+    "static/media/brewerfitness2.7fa3c726.jpg": "/static/media/brewerfitness2.7fa3c726.jpg",
+    "static/media/burgers.7a5a19d7.JPG": "/static/media/burgers.7a5a19d7.JPG",
+    "static/media/headshot.d39304ed.JPG": "/static/media/headshot.d39304ed.JPG",
+    "static/media/highcard.e84a7e33.jpg": "/static/media/highcard.e84a7e33.jpg",
+    "static/media/rockstar.6bb90509.jpg": "/static/media/rockstar.6bb90509.jpg",
+    "static/media/weather.d049b2d0.JPG": "/static/media/weather.d049b2d0.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.534f6653.js",
-    "static/js/2.c37b7356.chunk.js",
+    "static/js/runtime-main.4f3be5ad.js",
+    "static/js/2.d1e947eb.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.0918ea82.chunk.js"
+    "static/js/main.f7892d14.chunk.js"
   ]
 }

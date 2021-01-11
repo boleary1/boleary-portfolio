@@ -1,6 +1,6 @@
 {
   "name": "react-material-ui",
-  "homepage": "http://brianfoleary.net/",
+  "homepage": "http://boleary1.github.io/boleary-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.2.0",
     "gh-pages": "^3.1.0",
     "material-ui-image": "^3.3.0",
+    "node-dig-dns": "^0.2.12",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
@@ -21,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

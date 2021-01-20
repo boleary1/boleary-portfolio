@@ -108,11 +108,11 @@ export default function AboutGrid() {
                         <h4 className={classes.smColumn}>Technical</h4>
                         <hr className={classes.whiteLine}></hr>
                         <ul className={classes.bulletList}>
-                            <li>Item</li>
-                            <li>Item</li>
-                            <li>Item</li>
-                            <li>Item</li>
-                            <li>Item</li>
+                            <li>JavaScript</li>
+                            <li>ECMAScript (ES6)</li>
+                            <li>React</li>
+                            <li>Material UI</li>
+                            <li>Bootstrap</li>
 
                         </ul>
                     </Grid>

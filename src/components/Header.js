@@ -91,7 +91,7 @@ export default function HeaderGrid() {
                             </IconButton>
                         </Grid>
                         <Grid className={classes.iconCtn} item xs={4}>
-                            <IconButton aria-label="Linkedin.com" onClick={() => window.open('/Assets/b.olearyresume.pdf')}>
+                            <IconButton aria-label="Linkedin.com" onClick={() => window.open('/Assets/olearyresume.pdf')}>
                                 <AttachFileIcon className={classes.icon} />
                             </IconButton>
                         </Grid>

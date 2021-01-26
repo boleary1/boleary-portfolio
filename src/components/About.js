@@ -83,7 +83,7 @@ export default function AboutGrid() {
                 <Grid className={classes.minorHeader} item xs={12} sm={6}>
                     <h1 className={classes.paperSecond}>About Me:</h1>
                     <hr className={classes.whiteLine}></hr>
-                    <p className={classes.paperSecond}>Brian is a Full Stack developor in training he is in the process of completing a coding bootcamp through the University of New Hampshire and Trilogy education.  He is coming from a mechanical engineering background where he worked to develop and improve high end fitness equipment.  </p>
+                    <p className={classes.paperSecond}>Brian is a Full Stack developer in training he is in the process of completing a coding bootcamp through the University of New Hampshire and Trilogy education.  He is coming from a mechanical engineering background where he worked to develop and improve high end fitness equipment.  </p>
                 </Grid>
                 <Grid container className={classes.minorHeader} item xs={12} sm={6}>
                     <Grid item xs={12}>
@@ -96,10 +96,10 @@ export default function AboutGrid() {
                         <hr className={classes.whiteLine}></hr>
                         <ul className={classes.bulletList}>
                             <li>Time managment</li>
+                            <li>Collaboration</li>
                             <li>workflow optimization</li>
-                            <li>Item</li>
-                            <li>Item</li>
-                            <li>Item</li>
+                            <li>Problem solving</li>
+                            <li>Photography</li>
 
                         </ul>
 

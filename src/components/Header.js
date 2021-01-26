@@ -86,12 +86,12 @@ export default function HeaderGrid() {
                             </IconButton>
                         </Grid>
                         <Grid className={classes.iconCtn} item xs={4}>
-                            <IconButton aria-label="Linkedin.com" onClick={() => window.open('https://github.com/boleary1')}>
+                            <IconButton aria-label="github.com" onClick={() => window.open('https://github.com/boleary1')}>
                                 <GitHubIcon className={classes.icon} />
                             </IconButton>
                         </Grid>
                         <Grid className={classes.iconCtn} item xs={4}>
-                            <IconButton aria-label="Linkedin.com" onClick={() => window.open('/Assets/olearyresume.pdf')}>
+                            <IconButton aria-label="resume" onClick={() => window.open('src/Assets/olearyresume.pdf')}>
                                 <AttachFileIcon className={classes.icon} />
                             </IconButton>
                         </Grid>

@@ -17,3 +17,7 @@ Last edit was 11/10/2020 by Brian O'leary to reflect new projects.  Contact olea
 #### Bottom half of page:
   ![Top half of page](https://github.com/boleary1/boleary-portfolio/blob/main/screenshot-2.JPG?raw=true)
 
+
+
+## Deployment tips
+https://create-react-app.dev/docs/deployment/#github-pages
